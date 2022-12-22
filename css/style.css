@@ -1,6 +1,15 @@
+:root {
+  --primay-brand: #4d5ae5;
+  --dark: #2e2f42;
+  --text: #434455;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --white: #ffffff;
+}
+
 body {
   font-family: "roboto", sans-serif;
-  color: #434455;
+  color: var(--text);
 }
 .list {
   list-style: none;
@@ -19,10 +28,10 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .logo-part {
-  color: #4d5ae5;
+  color: var(--primay-brand);
 }
 
 .header-navigation {
@@ -36,14 +45,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .carrent {
-  color: #4d5ae5;
+  color: var(--primay-brand);
 }
 .header-link:hover,
 .header-link:focus {
-  color: #4d5ae5;
+  color: var(--primay-brand);
 }
 .header-contacts {
 }
@@ -55,11 +64,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
 .header-tel:hover,
 .header-tel:focus {
-  color: #4d5ae5;
+  color: var(--primay-brand);
 }
 
 /* ---------------MAIN------------------ */
@@ -90,21 +99,21 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: var(--primay-brand);
+  background: var(--cloud);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
 }
 .main-button:hover,
 .main-button:focus {
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--white);
+  background-color: var(--primay-brand);
 }
 .portfolio-list {
 }
 .portfolio-item {
-  background: #ffffff;
+  background: var(--white);
 }
 .portfolio-photo {
 }
@@ -115,17 +124,17 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
 /* -----------------FOOTER------------------ */
 .footer {
-  background: #2e2f42;
+  background: var(--dark);
 }
 .footer-logo {
   font-weight: 800;
@@ -135,24 +144,24 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 .logo-part-ftr {
-  color: #4d5ae5;
+  color: var(--primay-brand);
 }
 .footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--cornflower);
 }
 /* -------------------The-main-page--------------------- */
 
 .main-page {
 }
 .main-page-hello {
-  background-color: #2e2f42;
+  background-color: var(--dark);
 }
 .main-page-title {
   font-weight: 700;
@@ -160,7 +169,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white);
 }
 .main-page-btn {
   font-family: "Roboto";
@@ -170,14 +179,14 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--white);
+  background-color: var(--primay-brand);
   border: none;
   cursor: pointer;
 }
 .main-page-btn:hover,
 .main-page-btn:focus {
-  color: #ffffff;
+  color: var(--white);
   background-color: #404bbf;
 }
 .middle {
@@ -191,13 +200,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .middle-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
 .about {
   font-weight: 700;
@@ -206,7 +215,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .photo-gadgets {
 }
@@ -215,7 +224,7 @@ body {
 .gadgets-img {
 }
 .team {
-  background: #f4f4fd;
+  background: var(--cloud);
 }
 .team-title {
   font-weight: 700;
@@ -224,12 +233,12 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .team-list {
 }
 .team-item {
-  background: #ffffff;
+  background: var(--white);
 }
 .team-photo {
 }
@@ -238,12 +247,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .team-work {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
